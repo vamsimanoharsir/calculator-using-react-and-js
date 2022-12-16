@@ -1,0 +1,38 @@
+.numbers_css{
+    display: grid;
+}
+.calculator {
+    border: 5px solid rgb(189, 194, 142);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+  }
+
+  .calc-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #c02e7e;
+  }
+
+  .all-clear {
+    background-color: #f0595f;
+    border-color: #b0353a;
+    color: #fff;
+  }
+  .equal-sign {
+    background-color: #2e86c0;
+    border-color: #337cac;
+    color: #fff;
+  }
+  .heading_css {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #437068, #3f5f71);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 30px;
+  }
