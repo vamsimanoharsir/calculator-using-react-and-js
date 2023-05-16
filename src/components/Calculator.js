@@ -5,7 +5,8 @@ function Calculator(props) {
     const [calc,setCalc]=useState('')
     const [res, setRes]=useState('')
     const op=['+','-','*','/','.']
-
+    //added comment
+    let p11=[]
     const updateResult=(value)=>{
         //if first letter typed is an operator or last typed one is an operator we return
         if((op.includes(value)&&calc==='')||(op.includes(value)&&op.includes(calc.slice(-1))))
